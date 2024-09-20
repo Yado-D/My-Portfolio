@@ -6,7 +6,8 @@ ul li{
     list-style-type: none;
 }
 body{
-    margin: 0;
+   
+   
     font-family: "Montserrat","Arial";
     color: white;
     background-color: #4B4E51;
@@ -15,13 +16,41 @@ header{
     position: fixed;
     width: 100%;
 }
+.header-dsk{
+   
+}
 .meet-yared{
     color: white;
 }
 .outer-wrapper{
     background-color: #0D4671;
 }
+.header-list ul li a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    opacity: 0.5;
+}
+.header-list ul li a:hover{
+    opacity: 1;
+}
+.download-button {
+    margin-left: 60px;
+    padding-top: 4px;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width: 150px;
+}
+.download-button:hover{
+  opacity: 0.7;
+}
+
+
 #Home{
+    padding-top: 70px;
     border-top-style: 10px solid #0D4671;
     height: 400px;
     background-image: url(../images/bg/bg1.jpg);
@@ -143,7 +172,7 @@ header{
             background-repeat: no-repeat;
             background-size: cover;
         } 
-    
+        
 }
 .img-decorate{
   width: 450px;
