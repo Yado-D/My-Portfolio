@@ -6,8 +6,6 @@ ul li{
     list-style-type: none;
 }
 body{
-   
-   
     font-family: "Montserrat","Arial";
     color: white;
     background-color: #4B4E51;
@@ -15,6 +13,31 @@ body{
 header{
     position: fixed;
     width: 100%;
+}
+.boldish{
+    font-weight: bolder;
+}
+.blakish{
+    color: black;
+    
+}
+.greenish{
+    color: rgba(0, 242, 0, 0.755);
+    font-size: 20px;
+}
+.bluish{
+    color: #0D4671;
+    font-size: 20px;
+}
+.redish{
+    color: red;
+    font-size: 20px;
+}
+.darkish{
+    color: #8f9394;
+}
+.whitish{
+    color: rgb(215, 211, 211);
 }
 .header-dsk{
    
@@ -48,28 +71,28 @@ header{
   opacity: 0.7;
 }
 
-
 #Home{
-    padding-top: 70px;
+    padding-top: 20px;
     border-top-style: 10px solid #0D4671;
-    height: 400px;
-    background-image: url(../images/bg/bg1.jpg);
+    width: 100%;
+    background-image: url(../images/bg/f-bg-m.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .he-txt{
-    margin-top: 15px;
-    margin-left: 100px;
+    margin-top: 10px;
 }
 .consult-me{
-    
-    padding-top: 5px;
+    background-color: #0081AF;
+    padding-top: 7px;
     text-align: center;
     width: 170px;
+    height: 45px;
     border-radius: 20px;
     border: 2px solid white;
 }
 .inner-wrapper{
+    margin-left: 20px;
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -82,9 +105,21 @@ header{
     margin-left: 30px;
     background-image: url("../images/hm/yado.png");
     background-position: center;
-    
     background-repeat: no-repeat;
     object-fit:fit;
+}
+.notify-cont{
+    margin-top: 230px;
+    position: absolute;
+    top: 0px;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.pic-notify{
+   position: relative;
 }
 .small-cont{
     margin-left: 30px;
@@ -107,16 +142,6 @@ header{
 }
 .info{
     margin-right: 60px;
-}
-.redish{
-    color: red;
-    font-size: 20px;
-}
-.darkish{
-    color: #8f9394;
-}
-.whitish{
-    color: rgb(215, 211, 211);
 }
 .Ex-container{
     margin: 10px 10px;
@@ -177,13 +202,25 @@ header{
 @media (min-width:760px){
    
     #Home{
+            padding-top: 70px;
             border-top-style: 10px solid #0D4671;
             height: 700px;
             width: 100%;
-            background-image: url(../images/bg/bg-D.png);
+            background-image: url(../images/bg/f-bg-d.png);
             background-repeat: no-repeat;
             background-size: cover;
         } 
+        .profile-pic{
+            width: 400px;
+            height: 400px;
+            border-radius: 200px;
+            margin-left: 30px;
+            background-color: #0cfa3f;
+            background-image: url("../images/hm/yado.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
         
 }
 .img-decorate{
