@@ -57,6 +57,18 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.he-txt{
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.consult-me{
+    
+    padding-top: 5px;
+    text-align: center;
+    width: 170px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
 .inner-wrapper{
     padding-top: 50px;
     display: flex;
