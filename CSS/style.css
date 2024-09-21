@@ -1,3 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    margin: 0px;
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat","Arial";
+    color: white;
+    background-color: #4B4E51;
+    overflow-x: hidden;
+}
 img{
     width: 100%;
 }
@@ -5,48 +20,50 @@ img{
 ul li{
     list-style-type: none;
 }
-body{
-    font-family: "Montserrat","Arial";
-    color: white;
-    background-color: #4B4E51;
-}
+
 header{
     position: fixed;
     width: 100%;
 }
-.boldish{
+.bold-font{
     font-weight: bolder;
 }
-.blakish{
+.black-color{
     color: black;
-    
 }
-.greenish{
+.green-color{
     color: rgba(0, 242, 0, 0.755);
-    font-size: 20px;
 }
-.bluish{
+.blue-color{
     color: #0D4671;
-    font-size: 20px;
 }
-.redish{
+.red-color{
     color: red;
-    font-size: 20px;
 }
-.darkish{
+.dark-color{
     color: #8f9394;
 }
-.whitish{
+.white-color{
     color: rgb(215, 211, 211);
 }
-.header-dsk{
-   
+.small-txt{
+    font-size: 15px;
+}
+.medium-txt{
+    font-size: 20px;
+}
+.large-txt{
+    font-size: 40px;
+}
+.custom-padding{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .meet-yared{
     color: white;
 }
-.outer-wrapper{
-    background-color: #0D4671;
+.header-wrapper{
+    background-color: #512c21;
 }
 .header-list ul li a{
     text-decoration: none;
@@ -70,65 +87,240 @@ header{
 .download-button:hover{
   opacity: 0.7;
 }
-
-#Home{
-    padding-top: 20px;
-    border-top-style: 10px solid #0D4671;
-    width: 100%;
-    background-image: url(../images/bg/f-bg-m.png);
+.back-img{
+    margin: 0;
+    padding-top: 70px;
+    height: 350px;
+    background-image: url("../images/bg/pexels-shkrabaanthony-5475755.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    box-shadow: 0 10px 20px 7px #5a2a1c;
+    height: 100vh;
+    width: 100%;
 }
-.he-txt{
-    margin-top: 10px;
+.Home{
+   
 }
-.consult-me{
-    background-color: #0081AF;
-    padding-top: 7px;
-    text-align: center;
-    width: 170px;
-    height: 45px;
-    border-radius: 20px;
-    border: 2px solid white;
-}
-.inner-wrapper{
-    margin-left: 20px;
-    padding-top: 50px;
+
+.home-section-1{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    padding: 10px;
     
 }
-.profile-pic{
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    margin-left: 30px;
-    background-image: url("../images/hm/yado.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit:fit;
+.home-section-2{
+    display: none;
 }
-.notify-cont{
-    margin-top: 230px;
-    position: absolute;
-    top: 0px;
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
-    background-color: #ffffff;
+.hhhh{
+    margin-left: 40px;
 }
-
-.pic-notify{
-   position: relative;
+.extra-section-1{
+    margin-left: 3px;
+    padding-top: 18px;
 }
 .small-cont{
-    margin-left: 30px;
     height: 20px;
-    width: 10px;
-    background-color: #0cfa3f;
-    border-radius: 10px;
+    width: 20px;
+    border-radius: 15px;
+    background-color: green;
+}
+.button-design{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom:20px ;
+    height: 40px;
+    width: 160px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: rgb(56, 51, 51);
+    color: white;
+}
+.my-pic{
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+    background-image: url("../images/hm/yado.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* container styling */
+.Ex-Grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/* container styling */
+.Cr-Grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+@media (min-width:400px){
+     .home-outer-wrapper{
+        display: flex;
+
+     }
+     .small-mob-screen{
+        display: none;
+     }
+    .home-section-2{
+    display: flex;
+      }
+      /* container styling */
+    .Ex-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* container styling */
+      .Cr-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:476px){
+    .my-pic{
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 180px;
+        width: 180px;
+        border-radius: 120px;
+        background-color: blue;
+    }
+    .home-outer-wrapper{
+        display: flex;
+
+     }
+     .small-mob-screen{
+        display: none;
+     }
+    .home-section-2{
+    display: flex;
+      }
+      /* container styling */
+     .Ex-Grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* container styling */
+    .Cr-Grid{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+}
+@media (min-width:576px){
+    .my-pic{
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 200px;
+        width: 200px;
+        border-radius: 130px;
+        background-color: blue;
+    }
+    .home-section-1{
+        margin-left: 75px;
+        padding: 10px;
+    }
+    .home-outer-wrapper{
+        display: flex;
+
+     }
+     .small-mob-screen{
+        display: none;
+     }
+    .home-section-2{
+    display: flex;
+      }
+      /* container styling */
+    .Ex-Grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    /* container styling */
+    .Cr-Grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (min-width:776px){
+    .my-pic{
+        margin-top: 20px;
+        margin-left: 10px;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
+        background-color: blue;
+    }
+    .home-section-1{
+        margin-left: 75px;
+        padding: 10px;
+    }
+    
+    .home-outer-wrapper{
+        display: flex;
+
+     }
+     .small-mob-screen{
+        display: none;
+     }
+    .home-section-2{
+    display: flex;
+     margin-right: 30px;
+      }
+      /* container styling */
+    .Ex-Grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .Cr-Grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
 }
 
+.common-img-size{
+   margin: 20px auto;
+    width: 40px;
+   
+}
+.txt-indent{
+
+}
+.common-containers{
+    margin: 10px 15px;
+    padding: 15px 20px;
+    height: 350px;
+    background-color: #5a2a1c;
+}
+.viewAll-button{
+    padding: 5px;
+    height: 30px;
+    width: 80px;
+    background-color: black;
+}
+.glow-color{
+    color: #CE7C30;
+    font-weight: 900;
+}
+.contact-containers{
+  height: 200px;
+  background-color: #535558;
+
+}
+.icon-size{
+    margin: 0px auto;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 40px;
+   
+}
+
+/* footer section */
 .footer-style{
     padding: 20px;
     background-color: #3C3D44;
@@ -143,87 +335,5 @@ header{
 .info{
     margin-right: 60px;
 }
-.Ex-container{
-    margin: 10px 10px;
-    padding-right: 45px;
-    padding-left: 80px;
-    padding-top: 50px ;
-    height: 350px;
-    width: 460px;
-    background-color: #5A5C5D;
-}
-.web-mg{
-    margin-top: 100px;
-}
-#Experiance-section{
-    margin-top: 20px;
-    
-}
-.Ex{
-    margin-left: 15px;
-}
-.cirtify{
-    margin: 20px 15px;
-    color: #CE7C30;
-    font-weight: 900;
-}
-.name-of-cirtification{
-  margin-left: 15px;
-}
-.about-txt{
-    margin: 10px 20px;
-    color: #c79090;
-}
-.abouut{
-    margin: 10px 15px;
-}
-.about-container{
-    margin: 10px 20px;
-    padding-top: 60px;
-    height: 300px;
-    background-color: #5A5C5D;
-    
-}
-.img-icons{
-    font-size: 80px;
-}
-.boldish{
-    font-weight: bold;
-}
-.Ex-decorate{
-    margin-bottom: 5px;
-    padding: 10px;
-    text-align: center;
-    background-color: #5A5C5D;
-}
-.middle-Ex-cont{
-    background-color: red;
-}
-@media (min-width:760px){
-   
-    #Home{
-            padding-top: 70px;
-            border-top-style: 10px solid #0D4671;
-            height: 700px;
-            width: 100%;
-            background-image: url(../images/bg/f-bg-d.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-        } 
-        .profile-pic{
-            width: 400px;
-            height: 400px;
-            border-radius: 200px;
-            margin-left: 30px;
-            background-color: #0cfa3f;
-            background-image: url("../images/hm/yado.png");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-}
-.img-decorate{
-  width: 450px;
-  height: 300px;
-}
+/* end of footer styling */
+
