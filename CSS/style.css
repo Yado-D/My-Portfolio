@@ -263,6 +263,7 @@ header{
     
     .home-outer-wrapper{
         display: flex;
+        justify-content: center;
 
      }
      .small-mob-screen{
