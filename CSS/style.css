@@ -164,6 +164,7 @@ header{
 @media (min-width:400px){
      .home-outer-wrapper{
         display: flex;
+        justify-content: space-evenly;
 
      }
      .small-mob-screen{
@@ -192,8 +193,12 @@ header{
         border-radius: 120px;
         background-color: blue;
     }
+    .hhhh{
+        margin-top: 40px;
+    }
     .home-outer-wrapper{
         display: flex;
+        justify-content: space-evenly;
 
      }
      .small-mob-screen{
@@ -215,12 +220,15 @@ header{
 }
 @media (min-width:576px){
     .my-pic{
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left: 10px;
         height: 200px;
         width: 200px;
         border-radius: 130px;
         background-color: blue;
+    }
+    .hhhh{
+        margin-top: 40px;
     }
     .home-section-1{
         margin-left: 75px;
@@ -228,6 +236,7 @@ header{
     }
     .home-outer-wrapper{
         display: flex;
+        justify-content: space-evenly;
 
      }
      .small-mob-screen{
@@ -249,11 +258,11 @@ header{
 }
 @media (min-width:776px){
     .my-pic{
-        margin-top: 20px;
+        margin-top: 80px;
         margin-left: 10px;
-        height: 250px;
-        width: 250px;
-        border-radius: 150px;
+        height: 300px;
+        width: 300px;
+        border-radius: 170px;
         background-color: blue;
     }
     .home-section-1{
@@ -263,7 +272,7 @@ header{
     
     .home-outer-wrapper{
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
 
      }
      .small-mob-screen{
