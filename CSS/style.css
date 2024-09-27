@@ -146,7 +146,7 @@ header{
     height: 200px;
     width: 200px;
     border-radius: 150px;
-    background-image: url("../images/hm/yado.png");
+    background-image: url("../images//hm/IMG_1999.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,6 +160,27 @@ header{
 .Cr-Grid{
     display: grid;
     grid-template-columns: 1fr;
+}
+.bar{
+    display: none;
+    background-color:#681f09;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    a{
+        text-decoration: none;
+        color: white;
+        opacity: 0.7;
+    }
+    a:hover{
+        opacity: 1;
+    }
+}
+.bar ul li{
+    padding: 10px;
+    list-style-type: none;
+   
 }
 @media (min-width:400px){
      .home-outer-wrapper{
@@ -296,6 +317,7 @@ header{
 .common-img-size{
    margin: 20px auto;
     width: 40px;
+    
    
 }
 .txt-indent{
@@ -306,6 +328,10 @@ header{
     padding: 15px 20px;
     height: 350px;
     background-color: #5a2a1c;
+    transition: transform 0.3s ease-in-out;
+}
+.common-containers:hover {
+    transform: scale(1.1);
 }
 .viewAll-button{
     padding: 5px;
@@ -339,7 +365,7 @@ header{
     height: 90px;
     width: 90px;
     border-radius: 45px;
-    background-image: url("../images/hm/yado.png");
+    background-image: url("../images/hm/yado.jpg");
     background-position: center;
 }
 .info{
