@@ -33,3 +33,26 @@ document.querySelector(".tourTok").addEventListener("click",function (){
 //redirection end
 console.log();
 
+//for mob
+
+document.querySelector('.download-cv').addEventListener('click', function() {
+  console.log("download cv");
+  const link = document.createElement('a');
+  link.href = 'cv/my-cv.pdf'; 
+  link.download = 'yaredDereje-cv.pdf'; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
+
+// for desktop
+
+document.querySelector('.download-my-cv ').addEventListener('click', function() {
+  console.log(".download-my-cv ");
+  const link = document.createElement('a');
+  link.href = 'cv/my-cv.pdf'; 
+  link.download = 'yaredDereje-cv.pdf'; 
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});

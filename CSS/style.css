@@ -76,6 +76,7 @@ header{
 .download-button {
     margin-left: 60px;
     padding-top: 4px;
+    cursor: pointer;
     text-align: center;
     height: 35px;
     border-radius: 20px;
@@ -83,6 +84,7 @@ header{
     border-width: 2px;
     border-style: solid;
     width: 150px;
+    z-index: 100;
 }
 .download-button:hover{
   opacity: 0.7;
