@@ -15,17 +15,21 @@ barClicked.addEventListener('click', function() {
     }
   });
 
+//redirection start
 
+document.querySelector(".examCollectors").addEventListener("click",function (){
+   window.location.href = "examCollectors.html";
+});
+document.querySelector(".Habitomic").addEventListener("click",function (){
+  window.location.href = "habitomic.html";
+});
+document.querySelector(".shega-store").addEventListener("click",function (){
+  window.location.href = "shegaStore.html";
+});
+document.querySelector(".tourTok").addEventListener("click",function (){
+  window.location.href = "tourTok.html";
+});
 
-  //container bounce up
+//redirection end
+console.log();
 
-//   document.querySelector('.common-containers').addEventListener('mouseover', function() {
-//     this.animate([
-//       { transform: 'translateY(0)' },
-//       { transform: 'translateY(-20px)' },
-//       { transform: 'translateY(0)' }
-//     ], {
-//       duration: 300,
-//       iterations: 1
-//     });
-//   });

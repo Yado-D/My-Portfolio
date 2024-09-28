@@ -1,0 +1,31 @@
+.img-size{
+    
+    /* margin: 0px auto;
+    height: 400px;
+    width: 200px; */
+}
+.image-containers{
+    display: flex;
+    justify-content: center;
+}
+.grid-design{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px 5px;
+}
+@media(min-width:400px){
+    .grid-design{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px 5px;
+    }
+    
+}
+@media(min-width:670px){
+    .grid-design{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5px 5px;
+    }
+    
+}

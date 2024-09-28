@@ -276,6 +276,7 @@ header{
         display: grid;
         grid-template-columns: 1fr 1fr ;
     }
+    
 }
 @media (min-width:776px){
     .my-pic{
